@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 90px;
+    width: 100%;
+    /*background-color: rgb(76, 114, 241)*/;
+    display: flex;
+    justify-content: center;
+    /* position: fixed; */
+}
+.container{
+    width: 90%;
+    /*background-color: rgb(233, 76, 29);*/
+    display: flex;
+}
+.logo{
+    height: 90px;
+    width:22%;
+    /*background-color: yellow;*/
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    /* color: white; */
+    line-height: 90px;
+
+}
+.header_container{
+    justify-content: space-between;
+}
+.nav{
+      height: 90px;
+    width: 55%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav-item{
+    width: 20%;
+    height: 90px;
+    font-size: 24px;
+    /*background-color: gray;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 90px;
+    /* color: white; */
+    cursor: pointer;
+    transition: .4s;
+    background-color: white;
+    border: none;
+}
+.nav-item:hover{
+    background-color: white;
+    color: rgb(76, 114, 241);
+}
+.Home{
+    height: 300px;
+    width: 100%;
+}
+.home_container{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Name{
+    /* margin-top: 100px; */
+    text-align: center;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.Intro{
+    width: 80%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.Samples{
+    width: 100%;
+/* height: 500px; */
+margin-top: 150px;
+}
+.Sample_div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card {
+    width: 450px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .caption {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 20px;
+    margin: 5px 0 0 0;
+  }
+  a{
+    text-decoration: none;
+    
+  }
+  .About_Sakshi{
+    width: 100%;
+    margin-top: 300px;
+  }
+  .Header_abt{
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-bottom: 200px;
+  }
+  .About{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .About_me{
+    width: 60%;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
+  }
+  .profile{
+    width: 300px;
+    height: 400px;
+  }
