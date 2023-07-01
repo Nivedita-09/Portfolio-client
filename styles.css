@@ -196,4 +196,20 @@ width: 100%;
  .About_me{
   width: 100%;
  }
+ h3{
+  font-size: 18px;
+ }
+ p{
+  font-size: 16px;
+ }
+ .Header_abt{
+  font-size: 26px;
+  margin-bottom: 30px;
+ }
+ .About_Sakshi{
+  margin-top: 100px;
+ }
+ .About_me{
+  font-size: 18px;
+ }
   }
